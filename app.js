@@ -9,9 +9,9 @@ var name = "";
 
 //using ejs templating for pages
 app.set('view engine', 'ejs');
-/*
-app.enable('trust proxy');
 
+app.enable('trust proxy');
+/*
 //comment out to test on localhost
 
 app.use (function (req, res, next) {
